@@ -2,18 +2,15 @@
 #include <stdlib.h>
 
 int main(void){
-    char c,d;
-    int i,j;
+    int num1, num2; 
     
-    printf("enter a character :");
-    scanf("%c", &c);
+    printf("분자를 입력하세요:");
+    scanf("%d", &num1); 
+    printf("분모를 입력하세요:");
+    scanf("%d",&num2); 
+    printf("나누기의 결과는 %f\n입니다.",(float)num1/num2);
     
-    i = c;
-    j = c+1;
-    d = c+1;
-    
-    printf("the next character of %c (%i) is %c (%i)\n",c,i,d,j);
-    
+
     system("PAUSE");
     return 0;
   
